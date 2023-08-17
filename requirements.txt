@@ -1,0 +1,9 @@
+chromadb==0.4.6
+ctransformers==0.2.22
+faiss-cpu==1.7.4
+langchain==0.0.266
+PyMuPDF==1.22.5
+pypdf==3.15.1
+sentence-transformers==2.2.2
+streamlit==1.25.0
+streamlit-chat==0.1.1
