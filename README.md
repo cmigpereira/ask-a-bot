@@ -6,7 +6,7 @@ To use the app, you will need to install the following dependencies:
 
 `pip install requirements.txt`
 
-You also need to download the respective Llama LLM from [here](https://huggingface.co/TheBloke/Llama-2-13B-GGML) and put it in the same folder as `app.py`.
+You also need to download the respective Llama LLM from [here](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML) and put it in the same folder as `app.py`.
 
 Once you have installed the dependencies and downloaded the LLM model, you can run the following command to start the app:
 

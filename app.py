@@ -24,7 +24,7 @@ st.sidebar.write("""
                 ###### A Q&A chatbot for you to talk with your PDFs.
                 ###### Upload the PDF you want to talk to and start asking questions. The display will show the page where the answer was found.
                 ###### When you upload a new PDF, the chat history is reset for you to start fresh.
-                ###### The chatbot is based on Langchain and the Llama language model, which is a large language model trained on the Common Crawl dataset. Obtained from [here](https://huggingface.co/TheBloke/Llama-2-13B-GGML).
+                ###### The chatbot is based on Langchain and the Llama language model, which is a large language model trained on the Common Crawl dataset. Obtained from [here](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML).
                 ###### The performance of this bot is limited due to its size. For better performance, a larger LLM should be used.
                 ###### :warning: Sometimes the Streamlit app will not re-run and refresh the PDF. If this happens, refresh the page.
                 ###### Developed by [Carlos Pereira](https://linkedin.com/in/carlos-miguel-pereira/).
@@ -57,7 +57,7 @@ def load_llm():
     Load Llama LLM
     """
     llm_model = CTransformers(
-        model="llama-2-13b.ggmlv3.q3_K_S.bin",
+        model="llama-2-13b-chat.ggmlv3.q3_K_L.bin",
         model_type="llama",
         max_new_tokens=150,
         temperature=0.2
