@@ -16,3 +16,5 @@ You can then interact with the app by uploading a PDF and asking questions about
 The app will then return the respective answer and render the PDF page where the answer is.
 
 Please note that the performance of this bot is very limited when compared to a ChatGPT-based one due to the size/performance of the underlying LLM.
+
+You can also play with the app online at the Hugging Face Space [ask-a-bot](https://github.com/cmigpereira/ask-a-bot).
