@@ -17,4 +17,4 @@ The app will then return the respective answer and render the PDF page where the
 
 Please note that the performance of this bot is very limited when compared to a ChatGPT-based one due to the size/performance of the underlying LLM.
 
-You can also play with the app online at the Hugging Face Space [ask-a-bot](https://github.com/cmigpereira/ask-a-bot).
+You can also play with the app online at the Hugging Face Space [ask-a-bot](https://huggingface.co/spaces/cpereira/ask-a-bot)https://huggingface.co/spaces/cpereira/ask-a-bot).
